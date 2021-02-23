@@ -1,28 +1,36 @@
 # Sprint Project: JavaScript Fundamentals
 
-This Project allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied array methods, this keyword, prototypes, and class syntax. In your Project this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
+This Project allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems.
+ This Sprint explored JavaScript Fundamentals. During this Sprint, you studied array methods, this keyword, prototypes, and class syntax.
+  In your Project this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Project.**
 
-This is an individual assessment. All work must be your own. Your Project score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
+This is an individual assessment. All work must be your own. Your Project score is a measure of your ability to work independently using the material covered through this sprint. 
+You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Project. However, you are encouraged to follow the twenty-minute rule and seek support from your GL and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in JavaScript fundamentals.
+You are not allowed to collaborate during the Sprint Project. 
+However, you are encouraged to follow the twenty-minute rule and seek support from your GL and Instructor in your cohort help channel on Slack.
+ Your work reflects your proficiency in JavaScript fundamentals.
 
 > You have four hours to complete this Project. Plan your time accordingly.
 
 ## Description
 
-You will notice there are several JavaScript files being brought into the index.html file.  Each of those files contain JavaScript problems you need to solve.  If you get stuck on something, skip over it and come back to it later.
+You will notice there are several JavaScript files being brought into the index.html file. 
+ Each of those files contain JavaScript problems you need to solve.  If you get stuck on something, skip over it and come back to it later.
 
-In meeting the minimum viable product (MVP) specifications listed below, you should have a console full of correct responses to the problems given.
+In meeting the minimum viable product (MVP) specifications listed below, 
+you should have a console full of correct responses to the problems given.
 
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your group lead
+Edit this document to include your answers after each question.
+Make sure to leave a blank line above and below your answer so it is clear and easy to read by your group lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
@@ -76,7 +84,9 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
 * [ ] Use the [classes.js](classes.js) link to get started. Read the instructions carefully!
 
-In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+In your solutions, it is essential that you follow best practices and produce clean and professional results.
+ Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. 
+ It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
 ### Task 3 - Stretch Problems
 
