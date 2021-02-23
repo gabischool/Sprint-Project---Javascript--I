@@ -25,14 +25,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your group lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+for each does not return any value while map returns a new array of the same format and size
 
 2. Explain the difference between a callback and a higher order function.
+a call back function that is passed to another fuction with the expectation that it would be called later,while high order function takes another function as an argument.
 
 3. What is closure?
-
+a closure in javascript is a feature that can can acess the outer function and variables
 4. Describe the four rules of the 'this' keyword.
+used in new constructor
+Global scope binding
+Implicit  
+Explicit 
+
+
 
 5. Why do we need super() in an extended class?
+super keyword is used when inheriting other classes .its used to call the constructor of the parent class and will have the ability the access the parents properties and methods 
 
 ### Task 1 - Project Set up
 

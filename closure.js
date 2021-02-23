@@ -17,5 +17,4 @@ function myFunction() {
 myFunction();
 
 // Explanation (Min 50 words): 
-
-
+the const external can be accessed anywhere . its in the outside function , compared to the internal one that is only available inside the declared function. we use outer functions whenever we want to use the function from outside anytime .in this case the function internal is using the outer function thats already declared outside .

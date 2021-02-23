@@ -20,7 +20,12 @@ const zooAnimals = [
   The zoos want to display both the scientific name and the animal name in front of the habitats. Populate the displayNames array with only the animal_name and scientific_name of each animal. displayNames will be an array of strings, and each string should follow this pattern: "Name: Jackal, asiatic, Scientific: Canis aureus."
   
   */
-  const displayNames = [];
+ const displayNames = [];
+ zooAnimals.forEach(animal =>
+   {
+  animal_Names.unshift(index.animal_name + index.scientific_name);
+})
+  
   console.log(displayNames);
   
   /* Request 2: .map()
@@ -28,8 +33,10 @@ const zooAnimals = [
   The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
   
   */
+ 
   
   const lowCaseAnimalNames = [];
+  const lowerCase = zooAnimals.map(index => index.animal_name.toLowerCase());
   console.log(lowCaseAnimalNames);
   
   /* Request 3: .filter() 
@@ -38,6 +45,7 @@ const zooAnimals = [
   
   */
   const lowPopulationAnimals = [];
+  const lowPopulation = zooAnimals.filter(index => index.population < 5);
   console.log(lowPopulationAnimals);
   
   /* Request 4: .reduce() 
@@ -57,6 +65,17 @@ const zooAnimals = [
     * The last parameter accepts a callback
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
+ function add(a, b ) {
+  return a + b;
+};
+
+function multiply(a, b) {
+  return a * b;
+};
+
+function greeting(first, last) {
+  return `Hello ${first} ${last}, nice to meet you!`;
+};
   
   
   /* Step 2: Create several functions to callback with consume();
@@ -71,7 +90,11 @@ const zooAnimals = [
   // console.log(consume(10, 16, multiply)); // 160
   // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
   
-  
+  consume(2,2,add); 
+  consume(10,16,multiply); 
+consume("Mary","Poppins", greeting); 
+
+
   
   
   /*
