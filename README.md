@@ -26,13 +26,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+    .map is used for looping over the objects and creates new array also it does not manipulate the original array .
+    
+    foreach it doesn't return new array , it cause the whole website to run , it must interate through every item in an array with out stopping 
+
 2. Explain the difference between a callback and a higher order function.
 
+    call back function is a function that we can pass as parameter to an other function 
+    high order funciton is the function that recieves the call back function 
+
+
 3. What is closure?
+ 
+ closure  is what allows the inner function to grab the value of of variable  in the global or outter scope
 
 4. Describe the four rules of the 'this' keyword.
 
+you can think of this as  a Pointer to an object. For example: you can use the 'this' keyword to reference an object without having to refer to that object’s name.
+
 5. Why do we need super() in an extended class?
+
+supper allows us to inherit all the code and property for the  top function and decend it to the lower fucntion 
+
+
+
 
 ### Task 1 - Project Set up
 
