@@ -21,12 +21,13 @@ const zooAnimals = [
   
   */
   const displayNames = [];
-    displayNames.forEach(function(item) {
-      console.log(displayNames);
+  zooAnimals.forEach(function(item) {
+     
+  displayNames.push(item.animal_name, item.scientific_name)
 
     })
 
-  
+   console.log(displayNames)
   
   /* Request 2: .map()
   
@@ -34,16 +35,14 @@ const zooAnimals = [
   
   */
   
-  const lowCaseAnimalNames = []
+     
 
-    
+   let lowCaseAnimalNames =  zooAnimals.map(function(item) {
+    return item.animal_name.toLowerCase();
 
-   let lowCaseAnimalNames =  zooAnimals.map(function(item => item.lowCaseAnimalNames)
-   retrun item.toLowerCase();
-   
-  })
-
-  console.log(lowCaseAnimal);
+   })
+        
+  console.log(lowCaseAnimal)
 
   
   /* Request 3: .filter() 
@@ -51,7 +50,7 @@ const zooAnimals = [
   The zoos are concerned about animals with a lower population count. Using filter, create a new array of objects called lowPopulationAnimals which contains only the animals with a population less than 5.
   
   */
-  let  lowPopulationAnimals   = zooAnimals.filter(item => itemlowPopulationAnimals < 5);
+  let  lowPopulationAnimals   = zooAnimals.filter(item => item.population < 5);
        
 console.log(lowPopulationAnimals);
 
@@ -66,9 +65,9 @@ console.log(lowPopulationAnimals);
 
  let populationTotal = zooAnimals.reduce(function(accumulator , currentVallue) {
      
-  return accumulator + currentVallue.totalAnimalPopulation 
+  return accumulator + currentVallue.population 
  
-} 0;)_
+}, 0)
 
 console.log(populationTotal);
 
@@ -85,16 +84,16 @@ console.log(populationTotal);
   
 
       function consume (a, b, cb) {
-        return cb(a, b ); {
+        return cb(a, b ); 
 
 
-        }
+        
       }
         
 
-     let consume  = (a,b) => a+b 
+     
 
-     console.log(consure(5,7 consume))
+  
 
 
 
@@ -110,8 +109,8 @@ console.log(populationTotal);
   const add = (a , b) => a+b
   const multiply= (a , b) => a*b
   
-  let greetings =  "hello first-name laste name , nice to meet you!"
-      return
+  
+  const greeting = (firstName , lastName) => `Hello ${firstName} ${lastName} nice to meet you `
   
 
 
