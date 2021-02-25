@@ -21,7 +21,13 @@ const zooAnimals = [
   
   */
   const displayNames = [];
-  console.log(displayNames);
+  zooAnimals.forEach(function(item) {
+     
+  displayNames.push(item.animal_name, item.scientific_name)
+
+    })
+
+   console.log(displayNames)
   
   /* Request 2: .map()
   
@@ -29,25 +35,43 @@ const zooAnimals = [
   
   */
   
-  const lowCaseAnimalNames = [];
-  console.log(lowCaseAnimalNames);
+     
+
+   let lowCaseAnimalNames =  zooAnimals.map(function(item) {
+    return item.animal_name.toLowerCase();
+
+   })
+        
+  console.log(lowCaseAnimal)
+
   
   /* Request 3: .filter() 
   
   The zoos are concerned about animals with a lower population count. Using filter, create a new array of objects called lowPopulationAnimals which contains only the animals with a population less than 5.
   
   */
-  const lowPopulationAnimals = [];
-  console.log(lowPopulationAnimals);
+  let  lowPopulationAnimals   = zooAnimals.filter(item => item.population < 5);
+       
+console.log(lowPopulationAnimals);
+
+  
   
   /* Request 4: .reduce() 
   
   The zoos need to know their total animal population across the United States. Find the total population from all the zoos using the .reduce() method. Remember the reduce method takes two arguments: a callback (which itself takes two args), and an initial value for the count.
   
   */
-  let populationTotal = 0;
-  console.log(populationTotal);
-  
+
+
+ let populationTotal = zooAnimals.reduce(function(accumulator , currentVallue) {
+     
+  return accumulator + currentVallue.population 
+ 
+}, 0)
+
+console.log(populationTotal);
+
+ 
   
   // ==== Callbacks ====  
   
@@ -58,13 +82,38 @@ const zooAnimals = [
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
   
+
+      function consume (a, b, cb) {
+        return cb(a, b ); 
+
+
+        
+      }
+        
+
+     
+
+  
+
+
+
+
+
   
   /* Step 2: Create several functions to callback with consume();
     * Create a function named add that returns the sum of two numbers
     * Create a function named multiply that returns the product of two numbers 
     * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
   */
+    
+  const add = (a , b) => a+b
+  const multiply= (a , b) => a*b
   
+  
+  const greeting = (firstName , lastName) => `Hello ${firstName} ${lastName} nice to meet you `
+  
+
+
   
   /* Step 3: Check your work by un-commenting the following calls to consume(): */
   // console.log(consume(2, 2, add)); // 4
