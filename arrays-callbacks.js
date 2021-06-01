@@ -21,13 +21,13 @@ const zooAnimals = [
   
   */
  
-  const displayNames = zooAnimals.forEach(function(animal){
+   zooAnimals.forEach(function(animal){
     const animalName = animal.animal_name;
     const  sceintificName = animal.scientific_name;
-    const com= animalName + sceintificName;
-    return com;
+    const com = animalName + sceintificName;
+    console.log(com)
   });
-  console.log(displayNames);
+
   
   /* Request 2: .map()
   
@@ -73,8 +73,8 @@ const zooAnimals = [
     * The last parameter accepts a callback
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
- function consume(item1,item2,consume){
-    return consume(item1,item2)
+ function consume(item1,item2,cd){
+    return cd(item1,item2)
  }
 
   /* Step 2: Create several functions to callback with consume();
