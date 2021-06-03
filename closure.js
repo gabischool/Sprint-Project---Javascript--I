@@ -19,3 +19,8 @@ myFunction();
 // Explanation (Min 50 words): 
 
 
+// waxa weeye sabaab ay nestedFunction ay usoo daabayso internal verbialka waxa weeye var internal aya loo dir nestedFunction si uu console gareeyo
+//  sikale shaqada nestedFunction function waxa weeye in uu soo consolelog internal varka sare 
+//  aan nestedFunction waxa lagu invonking gareeyay paran functionka. internal varka waxa weeye 
+// function scope 
+// ka dibna waxa la soo #consonlelog gareeyay #paran funtion
