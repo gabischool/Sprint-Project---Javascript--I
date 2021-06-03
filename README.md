@@ -25,15 +25,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your group lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+map() allocates memory and stores return values. forEach() throws away return values and always returns undefined . forEach() will allow a callback function to mutate the current array. map() will instead return a new array
 
 2. Explain the difference between a callback and a higher order function.
+A higher-order function is a function that takes another function(s) as an argument(s) and/or returns a function to its callers. A callback function is a function that is passed to another function with the expectation that the other function will call it.
 
 3. What is closure?
-
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). ... In JavaScript, closures are created every time a function is created, at function creation time
 4. Describe the four rules of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
-
+The super keyword refers to the parent class. It is used to call the constructor of the parent class and to access the parent's properties and methods
 ### Task 1 - Project Set up
 
 Follow these steps to set up and work on your project:
